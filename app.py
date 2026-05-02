@@ -10,7 +10,7 @@ import os
 
 app = Flask(__name__)
 
-OWM_API_KEY = os.environ.get("OWM_API_KEY", "")
+OWM_API_KEY = os.environ.get("OWM_API_KEY", "8ab40a42ab7e2af856bb54cc3d9da233")
 OWM_BASE = "https://api.openweathermap.org"
 
 # Коды погоды OpenWeatherMap → Weather Channel (TWC)
